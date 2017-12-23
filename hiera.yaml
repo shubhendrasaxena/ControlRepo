@@ -1,8 +1,12 @@
 ---
-hierarchy:
-  - name: "Common defaults"
-    path: common.yaml
+version: 5
 
 defaults:
-  data_hash: yaml_data
-  datadir: /etc/puppetlabs/code/hieradata/production
+  datadir: "data"
+
+hierarchy:
+  - name: 'Yaml backend'
+    data_hash: yaml_data
+    paths:
+      - "nodes/%{trusted.certname}.yaml"
+      - 'common.yaml'
