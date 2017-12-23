@@ -1,0 +1,8 @@
+---
+hierarchy:
+  - name: "Common defaults"
+    path: common.yaml
+
+defaults:
+  data_hash: yaml_data
+  datadir: /etc/puppetlabs/code/hieradata/production
