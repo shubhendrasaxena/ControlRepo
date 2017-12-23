@@ -8,4 +8,3 @@ mod 'tomcat',
 
 mod 'java',
   :git    => 'https://github.com/shubhendrasaxena/module-java.git'
-  :branch =>  'devlopment'
