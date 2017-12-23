@@ -7,3 +7,9 @@ mod 'tomcat',
 
 mod 'java',
   :git    => 'https://github.com/shubhendrasaxena/module-java.git'
+
+mod 'roles',
+  :git => 'https://github.com/shubhendrasaxena/roles.git'
+
+mod 'profiles',
+  :git => 'https://github.com/shubhendrasaxena/profiles.git'
