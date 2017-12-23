@@ -13,3 +13,12 @@ mod 'roles',
 
 mod 'profiles',
   :git => 'https://github.com/shubhendrasaxena/profiles.git'
+
+mod 'hieradata',
+  :git => 'https://github.com/shubhendrasaxena/hieradata.git'
+  :install_path => 'hieradata'
+
+mod 'hieradata-nodes',
+  :git => 'https://github.com/shubhendrasaxena/hieradata-nodes.git'
+  :install_path => 'hieradata'
+
