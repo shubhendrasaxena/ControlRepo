@@ -18,7 +18,11 @@ mod 'hieradata',
   :git => 'https://github.com/shubhendrasaxena/hieradata.git'
   :install_path => 'hieradata'
 
+mod 'control-repo'
+  :git => 'https://github.com/puppetlabs/control-repo.git'
+
 mod 'hieradata-nodes',
   :git => 'https://github.com/shubhendrasaxena/hieradata-nodes.git'
   :install_path => 'hieradata',
 
+  
