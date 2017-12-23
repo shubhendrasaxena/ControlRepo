@@ -16,7 +16,7 @@ mod 'profiles',
 
 mod 'data',
   :git => 'https://github.com/shubhendrasaxena/data.git'
-  :default_branch => 'production',
+  :default_branch => 'production'
   
 
   
