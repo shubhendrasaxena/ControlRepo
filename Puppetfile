@@ -14,13 +14,9 @@ mod 'roles',
 mod 'profiles',
   :git => 'https://github.com/shubhendrasaxena/profiles.git'
 
-mod 'hieradata',
-  :git => 'https://github.com/shubhendrasaxena/hieradata.git'
+mod 'data',
+  :git => 'https://github.com/shubhendrasaxena/data.git'
   
-mod 'controlrepo',
-  :git => 'https://github.com/puppetlabs/control-repo.git'
 
-mod 'hieradata-nodes',
-  :git => 'https://github.com/shubhendrasaxena/hieradata-nodes.git'
   
   
