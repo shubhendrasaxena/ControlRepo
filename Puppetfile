@@ -14,5 +14,9 @@ mod 'roles',
 mod 'profiles',
   :git => 'https://github.com/shubhendrasaxena/profiles.git'
 
+mod 'data',
+  :git => 'https://github.com/shubhendrasaxena/data.git'
+
+
   
   
